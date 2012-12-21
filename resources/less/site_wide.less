@@ -1,0 +1,119 @@
+@import "bootstrap.less";
+@import "variables.less";
+
+@font-face {
+    font-family: 'trajan_pro';
+    src: url('trajan_pro.ttf');
+    font-weight:400;
+}
+
+body { 
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,1);
+	overflow:hidden;
+	font-family:trajan_pro, arial;
+}
+
+#navigation {
+
+	position:fixed;
+	right:2%;
+	top:2%;
+	z-index:10;
+
+	ul {
+
+		list-style-type:none;
+		li {
+
+			&:hover{
+
+			
+			}
+
+			a {
+
+				font-size: 1.2em;
+				color:rgb(255,255,255);
+				color:rgba(255, 255, 255, 1);
+
+				.no-fontface {
+					font-size:0.9em;
+				}
+				&:hover {
+					color:rgba(255, 255, 255, 0.8);
+
+				}
+			}
+		}
+
+	}
+}
+
+
+#header {	
+
+
+	.lead;
+	position:fixed;
+	top:0;
+	left:0;
+	color:white;
+	display:block;
+
+	div{
+		z-index:-1;
+		position:absolute;
+		top:200px;
+		left:200px;
+		// height:180px;
+		width:280px;
+		padding-left:120px;
+		padding-right:-20px;
+		border-top-right-radius: 100px;
+		border-bottom-right-radius: 100px;
+		color:@dark_blue;
+		text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+		box-shadow:0 1px 10px rgba(0, 0, 0, 0.1), inset -2.5px -2.4px 2px rgba(255, 255, 255, 0.8);
+		background-color:black;
+		a {
+			&:hover {
+				text-decoration:none;
+			}
+		}
+		h1{
+			color:white;
+			text-shadow: 0 1px 3px @yellow, 0 0 2px @yellow;
+		}
+	}
+
+}	
+
+#about, #contact {
+
+	position:relative;
+	width:100%;
+	height:500px;
+	margin:0 auto;
+	margin-top:@page_margin;
+
+	padding-top:1%;
+	&:nth-child(2n) {
+		background-color:#333;
+
+		h1 {color:black;}
+
+	}
+	
+	h1 {
+		text-align:center;
+		color:white;
+		position:relative;
+		display:block;
+		color:#333;
+		font-size:4em;
+		text-shadow: 1.4px 1.4px 1px rgba(0,0,0,0.9), -1.4px -1.4px 1px rgba(255,255,255,0.6); 
+
+
+	}
+}

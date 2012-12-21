@@ -1,0 +1,271 @@
+@import "variables.less";
+
+@pane_height: 200px;
+@pane_width:33%;
+@lower_row_margin_top:15px;
+@border_radius:10px;
+
+//variables for div animation pieces
+	@perspective: 400px;
+	@perspective_angle:20deg;
+	@skew_y: 10deg;
+	@perspective_vertical_offset: @pane_height*0.1;
+
+/**** BASIC HOMEPAGE ELEMENTS *****/
+#logo {
+
+	position:absolute;
+	width:20%;
+	z-index:4;
+	bottom:-10%;
+	left:40%;
+	right:40%;
+
+	img {
+		width:100%;
+	}
+}
+
+#home {//header!--move this around to move the viewport!
+
+	position:relative;
+	display:block;
+	height:550px;
+	width:1000px;
+	top:50px;
+	margin:0 auto;
+}
+
+#video_bumpbox {
+
+	margin:0 auto;
+	position:fixed;
+	top:15%;
+	bottom:15%;
+	left:0;
+	width:60%;
+	left:20%;
+	right:20%;
+	background-color:rgb(18,18,18);
+	background-color:rgba(18, 18, 18, 0.8);
+	z-index:2001;
+	display:none;
+	.box_shadow(0.0, 0.1);
+
+	.exit {
+
+		@size:20px;
+		cursor:pointer;
+		width:@size;
+		height:@size;
+		opacity:0.5;
+
+		position:absolute;
+		top:-@size*0.5;
+		right:-@size*0.5;
+		z-index:20000000;
+
+		img {
+			height:100%;
+			width:100%;
+		}
+
+		&:hover{
+			opacity:1.0;
+		}
+
+	}
+
+	iframe {
+
+		position:relative;
+		top:0;
+		margin:2.5% 5% 2.5% 5%;
+		height:90%;
+		width:90%;
+
+	}
+
+}
+
+
+#temp_clicker {//this is responsible for removing the screen once it is loaded!
+
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	height:100%;
+	width:100%;
+	background-color:rgba(35,35,35,0.8);
+	display:none;
+	z-index:2000;
+
+}
+
+
+/***** VIDEO SIZESS *******/
+//parent video elements
+#videos {
+
+	// these are the individual panes
+	position:relative;
+	display:block;
+	padding:7% 2% 7% 2%;
+	width:100%;
+	overflow-y:auto;
+}
+
+// HOVER LOGIC / BASIC PANE ELEMENT CSS
+#videos div {
+	float:left;
+	position:relative;
+	width:@pane_width;
+	height:@pane_height;
+	z-index:2;
+
+	&.video div img {
+		cursor:pointer;
+	}
+	// individual video panes are the divs below
+	div {
+
+		position:relative;
+		overflow:none;
+		position:relative;
+		height:@pane_height * 0.9;
+		width:90%;
+		margin-left:10%;
+		top:-10px;
+		box-shadow: 2px 2px 4px 4px rgba(0,0,0,0.3),
+			-2px -2px 4px 4px rgba(0,0,0,0.3), 
+			inset -2.5px -2.5px 2px rgba(255,255,255,0.5),
+			inset 2.5px 2.5px 2px rgba(255,255,255,0.5);
+
+		img {
+
+			position:relative;
+			display:block;
+			margin-top:5%;
+			max-width:90%;
+			min-width:60%;
+			max-height:80%;
+			margin:5% auto;
+
+		}
+	}
+
+	&:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5) {
+
+		&:hover {
+
+			div {
+				box-shadow: 2px 2px 4px 4px rgba(0,0,0,1),
+					-2px -2px 4px 4px rgba(0,0,0,1), 
+					inset -2.5px -2.5px 2px rgba(255,255,255,1),
+					inset 2.5px 2.5px 2px rgba(255,255,255,1);
+			}
+		}
+	}
+
+	&:nth-child(4) div {
+
+		color:white;
+		text-align:center;
+
+		h1 {
+			position:relative;
+			z-index:4;
+			top:22px;
+			font-size:1.2em;
+		}
+		ul {
+			position:relative;
+			top:5px;
+			list-style-type: none;
+			z-index:5;
+
+			li a {
+				color:white;
+				word-wrap:break-word;
+			}
+		}
+
+		img {
+
+			position:absolute;
+			top:5%;
+			left:5%;
+			width:90%;
+			height:90%;
+		}
+	}
+}
+
+
+.borderradius #videos div {
+
+	&:nth-child(1) div{
+
+		border-top-left-radius:@border_radius;
+
+	}
+
+	&:nth-child(3) div{
+
+		border-top-right-radius: @border_radius;
+
+	}
+
+	&:nth-child(4) div{
+
+		border-bottom-left-radius:@border_radius;
+	}
+
+	&:nth-child(6) div{
+		border-bottom-right-radius:@border_radius;
+	}
+}
+
+/*********** POSITIONING FOR LARGER BROWSERS ***********/
+@media screen and (max-width: 900px) {
+
+	body {
+		overflow-x:auto;
+	}
+}
+
+@media screen and (max-height:650px) {
+
+	body {
+		overflow-y:auto;
+	}
+}
+@media screen and (min-width:1200px) {
+
+	#home {
+		width:1250px;
+	}
+}
+
+@media screen and (min-width:1200px) and (min-height: 700px) {
+
+	#home {
+
+		height:600px;
+		width:1400px;
+	}
+}
+
+@media screen and (min-width:1500px) and (min-height:750px) {
+
+
+	#home {
+
+		height:650px;
+		width:1500px;
+
+	}
+
+}

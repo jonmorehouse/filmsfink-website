@@ -1,0 +1,69 @@
+{
+    "slides": [
+        {
+            "destination": "http://www.charlesjencks.com/", 
+            "id": "charles_jencks", 
+            "image_1": "images/sculptors/charles_jencks.png", 
+            "image_1_alt": "Charles Jencks", 
+            "image_2": "images/sculptors/charles_jencks_hover.png", 
+            "image_2_alt": "Charles Jencks Hover"
+        }, 
+        {
+            "destination": "http://www.guylaramee.com/",
+            "id": "guy_laramee", 
+            "image_1": "images/sculptors/guy_laramee.png", 
+            "image_1_alt": "Guy Laramee", 
+            "image_2": "images/sculptors/guy_laramee_hover.png", 
+            "image_2_alt": "Guy Laramee Hover"
+        }, 
+        {
+            "destination": "http://little-people.blogspot.com/", 
+            "id": "slinkachu", 
+            "image_1": "images/sculptors/slinkachu.png", 
+            "image_1_alt": "Sculptors", 
+            "image_2": "images/sculptors/slinkachu_hover.png", 
+            "image_2_alt": "Slinkachu"
+        }, 
+        {
+            "destination": "http://www.flickr.com/photos/takanoriaiba/", 
+            "id": "takanori_aiba", 
+            "image_1": "images/sculptors/takanori_aiba.png", 
+            "image_1_alt": "Slinkachu Hover", 
+            "image_2": "images/sculptors/takanori_aiba_hover.png", 
+            "image_2_alt": "Takanori Aiba"
+        }, 
+        {
+            "destination": "http://htgallery.oinsite.cn/_d272853959.html", 
+            "id": "unmask_group", 
+            "image_1": "images/sculptors/unmask_group.png", 
+            "image_1_alt": "Takanori Aiba Hover", 
+            "image_2": "images/sculptors/unmask_group_hover.png", 
+            "image_2_alt": "Unmask Group"
+        }, 
+        {
+            "destination": "http://yonghoji.com/db/", 
+            "id": "yong_ho_ji", 
+            "image_1": "images/sculptors/yong_ho_ji.png", 
+            "image_1_alt": "Unmask Group Hover", 
+            "image_2": "images/sculptors/yong_ho_ji_hover.png", 
+            "image_2_alt": "Yong Ho Ji"
+        }, 
+        {
+            "destination": "http://www.yuki-matsueda.com/works.html", 
+            "id": "yuki_matsueda", 
+            "image_1": "images/sculptors/yuki_matsueda.png", 
+            "image_1_alt": "Yong Ho Ji Hover", 
+            "image_2": "images/sculptors/yuki_matsueda_hover.png", 
+            "image_2_alt": "Yuki Matsueda"
+        },
+        {
+            "destination": "sculptors.html", 
+            "id": "sculptors", 
+            "image_1": "images/sculptors/sculptors.png", 
+            "image_1_alt": "Yong Ho Ji Hover", 
+            "image_2": "images/sculptors/sculptors.png", 
+            "image_2_alt": "Yuki Matsueda"
+        }
+
+    ]
+}

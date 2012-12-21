@@ -1,0 +1,93 @@
+{
+    "slides": [
+        {
+            "destination": "http://www.kalimedia.com/Atlas_of_True_Names.html", 
+            "id": "atlas_of_true_names", 
+            "image_1": "images/photographers/atlas_of_true_names.png", 
+            "image_1_alt": "Atlas Of True Names", 
+            "image_2": "images/photographers/atlas_of_true_names_hover.png", 
+            "image_2_alt": "Atlas Of True Names Hover"
+        }, 
+        {
+            "destination": "http://carenalpertfineart.com/", 
+            "id": "caren_alpert", 
+            "image_1": "images/photographers/caren_alpert.png", 
+            "image_1_alt": "Caren Alpert", 
+            "image_2": "images/photographers/caren_alpert_hover.png", 
+            "image_2_alt": "Caren Alpert Hover"
+        }, 
+        {
+            "destination": "http://www.chromoscope.net/", 
+            "id": "chromoscope", 
+            "image_1": "images/photographers/chromoscope.png", 
+            "image_1_alt": "Chromoscope", 
+            "image_2": "images/photographers/chromoscope_hover.png", 
+            "image_2_alt": "Chromoscope Hover"
+        }, 
+        {
+            "destination": "http://www.craigtracy.com/", 
+            "id": "craig_tracy", 
+            "image_1": "images/photographers/craig_tracy.png", 
+            "image_1_alt": "Craig Tracy", 
+            "image_2": "images/photographers/craig_tracy_hover.png", 
+            "image_2_alt": "Craig Tracy Hover"
+        }, 
+        {
+            "destination": "http://tiagohoisel.blogspot.com/", 
+            "id": "hoisel", 
+            "image_1": "images/photographers/hoisel.png", 
+            "image_1_alt": "Hoisel", 
+            "image_2": "images/photographers/hoisel_hover.png", 
+            "image_2_alt": "Hoisel Hover"
+        }, 
+        {
+            "destination": "http://www.turntopage84.com/", 
+            "id": "jag_nagra", 
+            "image_1": "images/photographers/jag_nagra.png", 
+            "image_1_alt": "Jag Nagra", 
+            "image_2": "images/photographers/jag_nagra_hover.png", 
+            "image_2_alt": "Jag Nagra Hover"
+        }, 
+        {
+            "destination": "http://www.jamesmollison.com/wherechildrensleep.php", 
+            "id": "james_mollison", 
+            "image_1": "images/photographers/james_mollison.png", 
+            "image_1_alt": "James Mollison", 
+            "image_2": "images/photographers/james_mollison_hover.png", 
+            "image_2_alt": "James Mollison Hover"
+        }, 
+        {
+            "destination": "http://www.koendemuynck.com/", 
+            "id": "koen_demuynck", 
+            "image_1": "images/photographers/koen_demuynck.png", 
+            "image_1_alt": "Koen Demuynck", 
+            "image_2": "images/photographers/koen_demuynck_hover.png", 
+            "image_2_alt": "Koen Demuynck Hover"
+        }, 
+        {
+            "destination": "http://www.flickr.com/groups/lookingintothepast/", 
+            "id": "looking_into_the_past", 
+            "image_1": "images/photographers/looking_into_the_past.png", 
+            "image_1_alt": "Looking Into The Past", 
+            "image_2": "images/photographers/looking_into_the_past_hover.png", 
+            "image_2_alt": "Looking Into The Past Hover"
+        }, 
+        {
+            "destination": "photographers.html", 
+            "id": "paintersphotographersexplorers", 
+            "image_1": "images/photographers/paintersphotographersexplorers.png", 
+            "image_1_alt": "Paintersphotographersexplorers", 
+            "image_2": "images/photographers/paintersphotographersexplorers.png", 
+            "image_2_alt": "Welovedatavis"
+        },
+        
+        {
+            "destination": "http://datavis.tumblr.com/", 
+            "id": "welovedatavis", 
+            "image_1": "images/photographers/welovedatavis.png", 
+            "image_1_alt": "Paintersphotographersexplorers", 
+            "image_2": "images/photographers/welovedatavis_hover.png", 
+            "image_2_alt": "Welovedatavis"
+        }
+    ]
+}

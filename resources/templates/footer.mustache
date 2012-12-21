@@ -1,0 +1,39 @@
+<div id='footer'>
+<span>Copyright &#169 2012 Simon Fink. All rights reserved.</span>
+</div>
+
+<script type='text/javascript'>
+
+	(function () {
+
+		var file_list = {};	
+		{{#project_modules}}
+		file_list[{{order}}] = "{{file}}";{{/project_modules}}
+
+		var load_script = function (url) {
+
+		    if (url) {
+		        var doc = document,
+		        t = doc.createElement("script"),
+		        s = doc.getElementsByTagName("script")[0];
+		        t.type = "text/javascript";
+		
+		        // Keep script order!
+		        t.async = false;
+		        t.src = url;
+		        s.parentNode.insertBefore(t, s);
+		    }
+		
+		};
+
+		for (var index in file_list) {
+			
+			var url = file_list[index];
+			load_script(url);
+
+		}
+	}());
+</script>
+
+</body>
+</html>

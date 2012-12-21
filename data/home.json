@@ -1,0 +1,103 @@
+{
+	"videos": [
+
+		{
+			"image": {
+
+				"title": "Out of Hand",
+				"thumbnail_url": "images/video_thumbnails/2.png",
+				"url": "https://vimeo.com/37045388", 
+				"id" : "37045388",
+				"type" : "vimeo"
+			}
+		},
+		
+
+		{
+			"image": {
+
+				"title": "The \"Reel\" Simon", 
+				"url": "https://vimeo.com/49210695", 
+				"id": "49210695",
+				"type":"vimeo",
+				"thumbnail_url": "images/video_thumbnails/3.png"
+			}
+		},
+		{
+
+		"image": {
+
+			"title": "A One Minute Introduction", 
+			"thumbnail_url": "images/video_thumbnails/1.png"
+			}
+		},
+
+		{
+			"links": [
+				{"url": "photographers.html", "title": "Painters/Photographers/Explorers"},
+				{"url": "surrealism.html", "title": "Surrealists"},
+				{"url": "sculptors.html", "title":"Sculptors"}
+
+			],
+			"title" : "Favorites",
+			"background_image": "images/video_thumbnails/4.png"
+		},
+		
+		{
+			"image": {
+
+				"title": "Under the Sinai", 
+				"thumbnail_url": "images/video_thumbnails/6.png"
+			}
+		},
+
+		{
+			"image": {
+
+				"title": "To Be Continued", 
+				"thumbnail_url": "images/video_thumbnails/5.png"
+			}
+		}
+	],
+
+	"video_reflections" :[
+	
+		{
+		
+			"image": {
+
+				"title": "video 1", 
+				"type":"vimeo",
+				"thumbnail_url": "images/video_thumbnails/reflection_1.png"
+			}
+
+		},
+		
+		{
+
+			"image": {
+
+				"title": "video 1", 
+				"thumbnail_url": "images/video_thumbnails/reflection_2.png"
+			}
+		},
+
+		{
+			"image": {
+
+				"title": "video 1", 
+				"thumbnail_url": "images/video_thumbnails/reflection_3.png"
+			}
+		}
+	],
+
+	"exit_image": "resources/images/exit.png",
+
+	"logo": {
+
+		"url" : "images/logo.png",
+		"title": "Simon Fink Director / Editor"
+	}
+
+	
+}

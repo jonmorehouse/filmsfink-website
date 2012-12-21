@@ -1,0 +1,64 @@
+<div id='home' data-link='home'>
+	<div id='videos'>
+	{{#videos}}
+	{{#image}}
+		<div {{#url}}class='video' data-id='{{id}}' data-url='{{url}}' data-type='{{type}}' {{/url}}>
+			<div>
+				<img src='{{thumbnail_url}}' alt='{{alt}}' />
+			</div>
+		</div>
+	{{/image}}
+	{{^image}}
+		<div>
+			<div>
+				{{#title}}<h1>{{title}}</h1>{{/title}}
+				<ul>
+				{{#links}}
+					<li><a href='{{url}}'>{{title}}</a></li>
+				{{/links}}
+				</ul>
+				{{#background_image}}<img src='{{background_image}}' />
+				{{/background_image}}
+			</div>
+		</div>
+	{{/image}}
+	{{/videos}}
+	</div>
+
+	<div id='video_reflections'>
+	{{#video_reflections}}
+		{{#image}}
+			<div data-url='{{url}}' data-type='{{alt}}'>
+				<img src='{{thumbnail_url}}' alt='{{alt}}' />
+			</div>
+		{{/image}}
+		{{^image}}
+			<div>
+				{{#title}}<h1>{{title}}</h1>{{/title}}
+				<ul>
+				{{#links}}
+					<li><a href='{{url}}'>{{title}}</a></li>
+				{{/links}}
+				</ul>
+				{{#background_image}}<img src='{{background_image}}' alt='{{title}}' />
+				{{/background_image}}
+			</div>
+		{{/image}}
+	{{/video_reflections}}
+	</div>
+
+	<div id='logo'>
+	{{#logo}}
+		<img src='{{url}}' alt='{{title}}' />
+	{{/logo}}
+	</div>
+</div>
+
+<div id='video_bumpbox'>
+	<div class='exit'><img src='{{exit_image}}' /></div>
+</div>
+
+<div id='temp_clicker'></div>
+
+
+

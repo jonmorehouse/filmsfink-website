@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{ page_title }}</title>
+	
+	<meta name='description' content='{{ meta_description }}' />
+	
+	<meta name='keywords' content='{{ meta_keywords }}' />
+	
+	{{#favicon}}<link rel='shortcut icon' href='{{favicon}}' />
+	{{/favicon}}
+
+	{{#css_resources}}<link rel='stylesheet' type='text/css' href='{{file}}' />
+	{{/css_resources}}
+
+	{{#javascript_resources}}<script type='text/javascript' src='{{file}}'></script>
+	{{/javascript_resources}}
+
+</head>
+<body>
+
+<div id='header'>
+	{{#header}}
+		<{{tag}}>{{content}}<{{tag}}/>
+	{{/header}}
+</div>
+
+<div id='navigation'>
+	<ul>{{#navigation}}
+		<li><a href='{{link}}' data-link='{{name}}'>{{name}}</a></li>
+		{{/navigation}}
+	</ul>
+</div>
+
+

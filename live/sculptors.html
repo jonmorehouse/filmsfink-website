@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simon Fink</title>
+	
+	<meta name='description' content='Simon Fink Videos' />
+	
+	<meta name='keywords' content='Simon, Fink, Videographer, Surrealism, Sculptors, Photographers, Director, Editor' />
+	
+	<link rel='shortcut icon' href='resources/images/favicon.ico' />
+	
+
+	<link rel='stylesheet' type='text/css' href='resources/css/twitter_bootstrap.css' />
+	<link rel='stylesheet' type='text/css' href='resources/css/index.css' />
+	
+
+	<script type='text/javascript' src='resources/javascript/jquery.js'></script>
+	<script type='text/javascript' src='resources/javascript/modernizr.js'></script>
+	
+
+</head>
+<body>
+
+<div id='header'>
+	
+		<h1>Simon FinK<h1/>
+	
+		<h2>DiReCtOr EdItOr<h2/>
+	
+</div>
+
+<div id='navigation'>
+	<ul>
+		<li><a href='index.html' data-link='Home'>Home</a></li>
+		
+		<li><a href='about.html' data-link='About'>About</a></li>
+		
+		<li><a href='contact.html' data-link='Contact'>Contact</a></li>
+		
+	</ul>
+</div>
+
+
+<div id='sculptors' data-link='sculptors'>
+	
+	<div class='canvas'>
+		
+		<div class='charles_jencks'>
+			<a href='http://www.charlesjencks.com/'>
+				<div class='original'><img src='images/sculptors/charles_jencks.png' alt='Charles Jencks' /></div>
+				<div class='hover'><img src='images/sculptors/charles_jencks_hover.png' alt='Charles Jencks Hover' /></div>
+			</a>
+		</div>
+		
+		<div class='guy_laramee'>
+			<a href='http://www.guylaramee.com/'>
+				<div class='original'><img src='images/sculptors/guy_laramee.png' alt='Guy Laramee' /></div>
+				<div class='hover'><img src='images/sculptors/guy_laramee_hover.png' alt='Guy Laramee Hover' /></div>
+			</a>
+		</div>
+		
+		<div class='slinkachu'>
+			<a href='http://little-people.blogspot.com/'>
+				<div class='original'><img src='images/sculptors/slinkachu.png' alt='Sculptors' /></div>
+				<div class='hover'><img src='images/sculptors/slinkachu_hover.png' alt='Slinkachu' /></div>
+			</a>
+		</div>
+		
+		<div class='takanori_aiba'>
+			<a href='http://www.flickr.com/photos/takanoriaiba/'>
+				<div class='original'><img src='images/sculptors/takanori_aiba.png' alt='Slinkachu Hover' /></div>
+				<div class='hover'><img src='images/sculptors/takanori_aiba_hover.png' alt='Takanori Aiba' /></div>
+			</a>
+		</div>
+		
+		<div class='unmask_group'>
+			<a href='http://htgallery.oinsite.cn/_d272853959.html'>
+				<div class='original'><img src='images/sculptors/unmask_group.png' alt='Takanori Aiba Hover' /></div>
+				<div class='hover'><img src='images/sculptors/unmask_group_hover.png' alt='Unmask Group' /></div>
+			</a>
+		</div>
+		
+		<div class='yong_ho_ji'>
+			<a href='http://yonghoji.com/db/'>
+				<div class='original'><img src='images/sculptors/yong_ho_ji.png' alt='Unmask Group Hover' /></div>
+				<div class='hover'><img src='images/sculptors/yong_ho_ji_hover.png' alt='Yong Ho Ji' /></div>
+			</a>
+		</div>
+		
+		<div class='yuki_matsueda'>
+			<a href='http://www.yuki-matsueda.com/works.html'>
+				<div class='original'><img src='images/sculptors/yuki_matsueda.png' alt='Yong Ho Ji Hover' /></div>
+				<div class='hover'><img src='images/sculptors/yuki_matsueda_hover.png' alt='Yuki Matsueda' /></div>
+			</a>
+		</div>
+		
+		<div class='sculptors'>
+			<a href='sculptors.html'>
+				<div class='original'><img src='images/sculptors/sculptors.png' alt='Yong Ho Ji Hover' /></div>
+				<div class='hover'><img src='images/sculptors/sculptors.png' alt='Yuki Matsueda' /></div>
+			</a>
+		</div>
+		
+	</div>
+
+</div><div id='footer'>
+<span>Copyright &#169 2012 Simon Fink. All rights reserved.</span>
+</div>
+
+<script type='text/javascript'>
+
+	(function () {
+
+		var file_list = {};	
+		
+		file_list[0] = "resources/javascript/modules.js";
+
+		var load_script = function (url) {
+
+		    if (url) {
+		        var doc = document,
+		        t = doc.createElement("script"),
+		        s = doc.getElementsByTagName("script")[0];
+		        t.type = "text/javascript";
+		
+		        // Keep script order!
+		        t.async = false;
+		        t.src = url;
+		        s.parentNode.insertBefore(t, s);
+		    }
+		
+		};
+
+		for (var index in file_list) {
+			
+			var url = file_list[index];
+			load_script(url);
+
+		}
+	}());
+</script>
+
+</body>
+</html>

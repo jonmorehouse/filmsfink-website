@@ -1,0 +1,38 @@
+{
+	"javascript_resources": [
+
+		{"file" : "resources/javascript/jquery.js"},
+		{"file": "resources/javascript/modernizr.js"}
+
+	],
+
+	"css_resources": [
+
+		{"file" : "resources/css/twitter_bootstrap.css"}, 
+		{"file":"resources/css/index.css"}
+
+	],
+
+	"favicon": "resources/images/favicon.ico",
+
+	"meta_description": "Simon Fink Videos",
+
+	"meta_keywords": "Simon, Fink, Videographer, Surrealism, Sculptors, Photographers, Director, Editor",
+
+	"page_title": "Simon Fink",
+
+	"navigation" : [
+		{"link": "index.html", "name": "Home"},
+		{"link": "about.html", "name": "About"},
+		{"link": "contact.html", "name": "Contact"}
+
+	],
+
+	"header" : [
+
+		{"tag": "h1", "content": "Simon FinK"},
+		{"tag": "h2", "content": "DiReCtOr EdItOr"}
+
+	]
+
+}

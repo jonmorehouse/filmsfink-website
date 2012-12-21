@@ -1,0 +1,63 @@
+{
+    "slides": [
+        
+        {
+            "destination": "http://erikjohanssonphoto.com/", 
+            "id": "erik_johansson", 
+            "image_1": "images/surrealism/erik_johansson.png", 
+            "image_1_alt": "Erik Johansson", 
+            "image_2": "images/surrealism/erik_johansson_hover.png", 
+            "image_2_alt": "Erik Johansson Hover"
+        }, 
+
+
+        {
+            "destination": "http://www.chemamadoz.com/a.html", 
+            "id": "chema_madoz", 
+            "image_1": "images/surrealism/chema_madoz.png", 
+            "image_1_alt": "Chema Madoz", 
+            "image_2": "images/surrealism/chema_madoz_hover.png", 
+            "image_2_alt": "Chema Madoz Hover"
+        }, 
+
+
+        {
+            "destination": "http://www.koendemuynck.com/", 
+            "id": "koen_demuynck", 
+            "image_1": "images/surrealism/koen_demuynck.png", 
+            "image_1_alt": "Koen Demuynck", 
+            "image_2": "images/surrealism/koen_demuynck_hover.png", 
+            "image_2_alt": "Koen Demuynck Hover"
+        }, 
+
+        {
+            "destination": "http://www.nancyfouts.com/", 
+            "id": "nancy_fouts", 
+            "image_1": "images/surrealism/nancy_fouts.png", 
+            "image_1_alt": "Nancy Fouts", 
+            "image_2": "images/surrealism/nancy_fouts_hover.png", 
+            "image_2_alt": "Nancy Fouts Hover"
+        },
+
+        {
+            "destination": "http://www.unpetitmonde.net/", 
+            "id": "kurt_moses", 
+            "image_1": "images/surrealism/kurt_moses.png", 
+            "image_1_alt": "Kurt Moses", 
+            "image_2": "images/surrealism/kurt_moses_hover.png", 
+            "image_2_alt": "Kurt Moses Hover"
+        }, 
+
+        {
+            "destination": "http://www.herbrich.com/",
+            "id": "thomas_herbrich", 
+            "image_1": "images/surrealism/thomas_herbrich.png", 
+            "image_1_alt": "Thomas Herbrich", 
+            "image_2": "images/surrealism/thomas_herbrich_hover.png", 
+            "image_2_alt": "Thomas Herbrich Hover"
+
+        }
+
+
+    ]
+}

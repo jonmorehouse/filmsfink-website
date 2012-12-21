@@ -1,0 +1,38 @@
+{
+	"less_files": [
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/site_wide.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/canvas.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/home.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/home_uncompatibility.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/surrealism.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/sculptors.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/photographers.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/about.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/contact.less",
+		"/Users/MorehouseJ09/Documents/production_development/fink/current/resources/less/footer.less"
+
+	],
+
+	"javascript_modules" : [
+
+		"resources/javascript/libraries/custom_jquery.js",
+		"resources/javascript/site_wide.js",
+		"resources/javascript/modules/header.js",
+		"resources/javascript/modules/scroll.js",
+		"resources/javascript/modules/bumpbox.js",
+		"resources/javascript/modules/contact.js",
+		"resources/javascript/modules/vimeo.js",
+		"resources/javascript/pages/home.js",
+		"resources/javascript/pages/project.js"
+	],
+
+	"pages" : {
+
+		"index": ["header", "home", "footer"],
+		"about": ["header", "about", "footer"],
+		"contact": ["header", "contact", "footer"],
+		"sculptors": ["header", "sculptors", "footer"],
+		"surrealism": ["header", "surrealism", "footer"],
+		"photographers": ["header", "photographers", "footer"]
+	}
+}
