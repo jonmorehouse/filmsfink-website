@@ -34,31 +34,46 @@
 
 <h2>Notes</h2>
 
-<ul>
-<li>Note that you don't need Node to edit html after compile time. The site is compiled to only static assets for easy deployment</li>
-<li>HTML5/CSS3 - all front-end work is built up to the latest standards. Vendor Prefixes added in later, after the fact</li>
-<li>Javascript - follows best practices. I use custom implementation of the AMD module system. To add js later, it is recommended to create a new file and append to the bottom footer list. My javascript is compiled, compressed and obfuscated for speed.</li>
-</ul>
+<p>Note that you don't need Node to edit html after compile time. The site is compiled to only static assets for easy deployment</p>
+
+<p>HTML5/CSS3 - all front-end work is built up to the latest standards. Vendor Prefixes added in later, after the fact</p>
+
+<p>Javascript - follows best practices. I use custom implementation of the AMD module system. To add js later, it is recommended to create a new file and append to the bottom footer list. My javascript is compiled, compressed and obfuscated for speed.</p>
 
 <h2>Image Change Directions</h2>
 
-<ul>
-<li>The best way to changes images without editing source code for the html is to actually replace the images. All images should .png files. </li>
-<li>Log in to the server directory. This is the place where code is stored etc. You should see an index.html, surrealism.html resources etc files / directories. Navigate to the images/video_thumbnails directory. Replace files as you see fit here and they will be reflected on the site</li>
-<li>Be sure image is a png and the same file name as the one you replace</li>
-</ul>
+<p>The best way to changes images without editing source code for the html is to actually replace the images. All images should be png files. The easiest way to find the image url is to right click (in chrome) on the element you want to change and take a look at the source code. Then you can simply overwrite that image in the images directory.</p>
+
+<p>Log in to the server directory. This is the place where code is stored etc. You should see an index.html, surrealism.html resources etc files / directories. Navigate to the images/video_thumbnails directory. Replace files as you see fit here and they will be reflected on the site</p>
+
+<p>Be sure image is a png and the same file name as the one you replace</p>
+
+<h2>Video Change Directions</h2>
+
+<p>Videos are determined based upon data tags inside of a div</p>
+
+<pre><code>&lt;div class='video' data-id='37045388' data-url='https://vimeo.com/37045388' data-type='vimeo' &gt;
+        &lt;div&gt;
+            &lt;img src='images/video_thumbnails/2.png' alt='' /&gt;
+        &lt;/div&gt;
+</code></pre>
+
+<p>The above video is an example of the code behind the first thumbnail. If you would like to change a thumbnail, change the img tag you see. Src stands for source so you can change that to anything you like. Otherwise you are free to change the actual image itself.</p>
+
+<p>To change the video, simply changed the data-id tag to give it the proper id from vimeo and then update the data-url tag accordingly.</p>
+
+<p>To remove a tag, simply remove the class='video' tag and remove the data-id and data-url tags as well.</p>
 
 <h2>SEO Changes</h2>
 
-<ul>
-<li>To change SEO Keywords / Changes you will need to update the <head> tag of each html page. Simply open the *.html pages (index.html, surrealism.html etc) in your favorite text editor. </li>
-<li>You will see several tags such as <!Doctype html><head> and some <meta > tags. The meta tags are the ones you will want to change</li>
-<li>The <meta name='description'> tag is your description, this is the text that will show up when google indexes your page (when you search the site this will show)</li>
-<li>The <meta name='keywords'> tag consists of the keywords that will help link your webpage to google's indexed keywords.</li>
-</ul>
+<p>To change SEO Keywords / Changes you will need to update the <head> tag of each html page. Simply open the *.html pages (index.html, surrealism.html etc) in your favorite text editor. </p>
+
+<p>You will see several tags such as <!Doctype html><head> and some <meta > tags. The meta tags are the ones you will want to change</p>
+
+<p>The <meta name='description'> tag is your description, this is the text that will show up when google indexes your page (when you search the site this will show)</p>
+
+<p>The <meta name='keywords'> tag consists of the keywords that will help link your webpage to google's indexed keywords.</p>
 
 <h2>Other Notes</h2>
 
-<ul>
-<li>Most changes you would want to make will take me seconds to perform on my machine, as I have built the programs and technologies that compile the site for me. Feel free to email me at <a href="&#109;&#97;i&#108;&#116;&#111;:&#109;&#111;&#114;&#101;&#104;&#111;&#x75;&#x73;e&#x6A;&#x30;&#x39;&#64;&#103;&#109;&#97;&#x69;&#108;.&#99;&#x6F;&#109;">&#109;&#111;&#114;&#101;&#104;&#111;&#x75;&#x73;e&#x6A;&#x30;&#x39;&#64;&#103;&#109;&#97;&#x69;&#108;.&#99;&#x6F;&#109;</a> and we can discuss the details / rates.</li>
-</ul>
+<p>Most changes you would want to make will take me seconds to perform on my machine, as I have built the programs and technologies that compile the site for me. Feel free to email me at <a href="&#109;&#97;&#x69;&#x6C;&#116;&#111;:&#109;&#111;&#x72;&#x65;&#104;&#111;&#x75;&#x73;&#x65;&#106;&#48;&#57;&#64;&#103;m&#x61;&#105;&#108;&#46;&#x63;&#x6F;&#x6D;">&#109;&#111;&#x72;&#x65;&#104;&#111;&#x75;&#x73;&#x65;&#106;&#48;&#57;&#64;&#103;m&#x61;&#105;&#108;&#46;&#x63;&#x6F;&#x6D;</a> and we can discuss the details / rates.</p>
